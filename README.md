@@ -279,17 +279,18 @@ Proses menambahkan data mahasiswa baru.
 ### 5.3. Output Loop (Daftar Mahasiswa)
 Hasil perulangan `for` yang menampilkan daftar mahasiswa dalam tabel.
 
-![Output Loop](assets/image/screenshot-loop.png)
+![Output Loop](assets/image/loop_dftrmhs.png)
 
 ### 5.4. Testing Validasi
 Uji coba validasi input (NPM salah, nilai di luar 0-100).
 
-![Testing Validasi](assets/image/screenshot-testing.png)
+![Testing Validasi](assets/image/testing_validasi.png)
+![Testing Validasi](assets/image/validasi_salah_input.png)
 
 ### 5.5. Halaman Laporan
 Rekap nilai dan statistik kelulusan seluruh mahasiswa.
 
-![Halaman Laporan](assets/image/screenshot-laporan.png)
+![Halaman Laporan](assets/image/halaman_laporan.png)
 
 ---
 
