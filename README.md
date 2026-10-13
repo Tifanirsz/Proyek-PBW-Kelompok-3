@@ -96,7 +96,7 @@ Proyek ini merupakan aplikasi berbasis web sederhana untuk memenuhi Tugas Projec
 </table>
 
 ## 3. Penjelasan Fitur
-Aplikasi Sistem Akademik ini memiliki **5 fitur utama**:
+Aplikasi Sistem Akademik ini memiliki **6 fitur utama**:
 
 ### 3.1. Tambah Data Mahasiswa
 Pengguna dapat menambahkan data mahasiswa baru melalui form di halaman utama (`index.php`). Data yang diinput meliputi:
