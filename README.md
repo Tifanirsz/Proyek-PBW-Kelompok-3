@@ -274,15 +274,22 @@ Menampilkan form tambah mahasiswa dan daftar mahasiswa.
 ### 5.2. Fitur Utama (Tambah Data)
 Proses menambahkan data mahasiswa baru.
 
-![Fitur Tambah](assets/image/screenshot-tambah.png)
+![Fitur Tambah](assets/image/tambah_data.png)
 
-### 5.3. Output Loop (Daftar Mahasiswa)
+### 5.3. Fitur Hapus Data
+Dialog konfirmasi sebelum data dihapus, atau pesan berhasil setelah data dihapus.
+
+![Fitur Hapus](assets/image/hapus_datamhs.png)
+![Fitur Hapus](assets/image/output_hapus_data.png)
+
+
+### 5.4. Output Loop (Daftar Mahasiswa)
 Hasil perulangan `for` yang menampilkan daftar mahasiswa dalam tabel.
 
 ![Output Loop](assets/image/loop_dftrmhs.png)
 
-### 5.4. Testing Validasi
-Uji coba validasi input (NPM salah, nilai di luar 0-100).
+### 5.5. Testing Validasi
+Uji coba validasi input.
 
 ![Testing Validasi](assets/image/testing_validasi.png)
 ![Testing Validasi](assets/image/validasi_salah_input.png)
