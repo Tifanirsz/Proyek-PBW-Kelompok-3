@@ -8,7 +8,7 @@
 
   <br>
 
-<img src="image/logo_UP.webp" width="300">
+<img src="assets/image/logo_UP.webp" width="350">
 
   <br><br>
 
