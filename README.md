@@ -284,36 +284,34 @@ Berikut adalah screenshot hasil aplikasi Sistem Akademik:
 ### 5.1. Halaman Utama
 Menampilkan form tambah mahasiswa dan daftar mahasiswa.
 
-![Halaman Utama](assets/image/halaman_utama.png)
+<img src="assets/image/halaman_utama.png" width="400">
 
 ### 5.2. Fitur Utama (Tambah Data)
 Proses menambahkan data mahasiswa baru.
 
-![Fitur Tambah](assets/image/tambah_data.png)
+<img src="assets/image/tambah_data.png" width="400">
 
 ### 5.3. Fitur Hapus Data
 Dialog konfirmasi sebelum data dihapus, atau pesan berhasil setelah data dihapus.
 
-![Fitur Hapus](assets/image/hapus_datamhs.png)
-![Fitur Hapus](assets/image/output_hapus_data.png)
-
+<img src="assets/image/hapus_datamhs.png" width="400">
+<img src="assets/image/output_hapus_data.png" width="400">
 
 ### 5.4. Output Loop (Daftar Mahasiswa)
 Hasil perulangan `for` yang menampilkan daftar mahasiswa dalam tabel.
 
-![Output Loop](assets/image/loop_dftrmhs.png)
+<img src="assets/image/loop_dftrmhs.png" width="400">
 
 ### 5.5. Testing Validasi
 Uji coba validasi input.
 
-![Testing Validasi](assets/image/testing_validasi.png)
-![Testing Validasi](assets/image/validasi_salah_input.png)
+<img src="assets/image/testing_validasi.png" width="400">
+<img src="assets/image/validasi_salah_input.png" width="400">
 
 ### 5.5. Halaman Laporan
 Rekap nilai dan statistik kelulusan seluruh mahasiswa.
 
-![Halaman Laporan](assets/image/halaman_laporan.png)
-
+<img src="assets/image/halaman_laporan.png" width="400">
 ---
 
 ## 6. Kendala dan Solusi
