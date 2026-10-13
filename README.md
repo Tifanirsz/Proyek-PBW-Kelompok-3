@@ -113,12 +113,27 @@ Pengguna dapat mengubah data mahasiswa yang sudah ada dengan menekan tombol **"U
 ### 3.3. Hapus Data Mahasiswa
 Pengguna dapat menghapus data mahasiswa dengan menekan tombol **"Hapus"**. Akan muncul dialog konfirmasi (`confirm()`) sebelum data benar-benar dihapus dari database untuk mencegah penghapusan yang tidak disengaja.
 
-### 3.4. Lihat Laporan
+### 3.4. Perhitungan Nilai Otomatis
+Sistem secara otomatis menghitung **nilai akhir** mahasiswa berdasarkan bobot yang telah ditentukan:
+- **Nilai Tugas** → 30%
+- **Nilai UTS** → 30%
+- **Nilai UAS** → 40%
+
+Perhitungan ini dilakukan oleh fungsi `hitungNilaiAkhir()` di `functions.php`, yang dipanggil melalui method `hitungNilai()` pada class `Mahasiswa`. Selain nilai akhir, sistem juga otomatis menentukan:
+- **Grade huruf** (A/B/C/D/E) melalui fungsi `tentukanGrade()`.
+- **Status kelulusan** ("Lulus"/"Tidak Lulus") dengan batas nilai minimal 60.
+- **Status aktif** mahasiswa ("Aktif"/"Nonaktif").
+
+### 3.5. Tampilan Daftar Mahasiswa (Output Loop)
+Halaman utama menampilkan seluruh data mahasiswa dalam bentuk tabel menggunakan perulangan `for`. Tabel menampilkan kolom: No, NPM, Nama, Program Studi, Nilai Akhir, Grade, Status, dan Aksi (Ubah/Hapus). Baris genap diberi warna berbeda menggunakan operator modulus (`%`) agar mudah dibaca.
+
+### 3.6. Lihat Laporan
 Halaman `laporan.php` menampilkan rekap nilai dan kelulusan seluruh mahasiswa, meliputi:
 - **Statistik:** Total mahasiswa, jumlah mahasiswa aktif, jumlah lulus, dan rata-rata nilai akhir.
 - **Ringkasan Nilai:** Nilai tertinggi, nilai terendah, batas kelulusan, dan persentase kelulusan.
 - **Tabel Nilai Lengkap:** Menampilkan NPM, Nama, Nilai Tugas/UTS/UAS, Nilai Akhir, Grade, Kelulusan, dan Status.
   ---
+
 
 ## 4. Implementasi Konsep PHP
 
@@ -302,3 +317,18 @@ Rekap nilai dan statistik kelulusan seluruh mahasiswa.
 ---
 
 ## 6. Kendala dan Solusi
+| No | Kendala | Solusi |
+| :--- | :--- | :--- |
+| 1 | Kesulitan menghubungkan file `proses.php` dengan `classes/Mahasiswa.php` karena perbedaan struktur folder. | Memperbaiki path *require/include* dengan menggunakan `__DIR__` agar file class bisa dipanggil dengan benar. |
+| 2 | Tampilan CSS tidak muncul di beberapa halaman. | Memperbaiki link rel CSS di bagian `<head>` dengan menyesuaikan path folder `assets/css/`. |
+| 3 | Validasi input nilai (Tugas, UTS, UAS) agar hanya menerima angka 0-100. | Menambahkan validasi `is_numeric()` dan fungsi `koreksiNilai()` di `functions.php` sebelum data disimpan. |
+| 4 | NPM yang diinput pengguna bisa mengandung spasi atau karakter tidak valid. | Membuat fungsi `bersihkanNpm()` dengan `do-while` untuk membersihkan NPM, dan `cekNpm()` untuk validasi 10 digit angka. |
+| 5 | Perhitungan nilai akhir dan grade harus konsisten untuk semua mahasiswa. | Membuat fungsi terpusat `hitungNilaiAkhir()` dan `tentukanGrade()` di `functions.php`, lalu dipanggil lewat method `hitungNilai()` pada class `Mahasiswa`. |
+---
+
+## 7. Link/Source Folder
+
+*   **Repository GitHub:** [Proyek-PBW-Kelompok-3](https://github.com/Tifanirsr/Proyek-PBW-Kelompok-3)
+*   **Folder Assets:** [assets/](./assets)
+*   **Folder Classes:** [classes/](./classes)
+*   **Folder Data:** [data/](./data)
