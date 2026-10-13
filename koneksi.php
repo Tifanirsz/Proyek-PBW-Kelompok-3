@@ -2,7 +2,7 @@
 $host = 'localhost';
 $user = 'root';
 $password = '';
-$database = 'akademik';
+$database = 'akademikproject';
 $koneksi = mysqli_connect(
     $host,
     $user,
