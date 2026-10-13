@@ -328,7 +328,7 @@ Rekap nilai dan statistik kelulusan seluruh mahasiswa.
 
 ## 7. Link/Source Folder
 
-*   **Repository GitHub:** [Proyek-PBW-Kelompok-3](https://github.com/Tifanirsr/Proyek-PBW-Kelompok-3)
+*   **Repository GitHub:** [Proyek-PBW-Kelompok-3] (https://github.com/Tifanirsz/Proyek-PBW-Kelompok-3.git)
 *   **Folder Assets:** [assets/](./assets)
 *   **Folder Classes:** [classes/](./classes)
 *   **Folder Data:** [data/](./data)
