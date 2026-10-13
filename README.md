@@ -8,9 +8,7 @@
 
   <br>
 
-  <!-- Ganti LINK_LOGO di bawah ini dengan link gambar logo Universitas Pancasila -->
-  <!-- Contoh: <img src="https://link-gambar-logo-kamu.png" width="150"> -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Logo_Universitas_Pancasila.png/180px-Logo_Universitas_Pancasila.png" alt="Logo Universitas Pancasila" width="150">
+<img src="image/logo_UP.webp" width="300">
 
   <br><br>
 
