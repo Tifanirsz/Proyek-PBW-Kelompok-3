@@ -60,7 +60,7 @@ Proyek ini merupakan aplikasi berbasis web sederhana untuk memenuhi Tugas Projec
   <li><b>Nilai Tugas</b></li>
   <li><b>Nilai UTS</b> (Ujian Tengah Semester)</li>
   <li><b>Nilai UAS</b> (Ujian Akhir Semester)</li>
-  <li><b>Status Aktif</b> (Aktif/Cuti/Tidak Aktif)</li>
+  <li><b>Status Aktif</b> (Aktif/Tidak Aktif)</li>
 </ul>
 
 <p>Dari data di atas, sistem akan menghitung <b>Nilai Akhir</b> secara otomatis dengan bobot: Tugas 30%, UTS 30%, UAS 40%.</p>
