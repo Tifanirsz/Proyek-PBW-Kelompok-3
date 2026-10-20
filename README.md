@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h2> UTS PROJECT PEMROGRAMAN BERBASIS WEB</h2>
+  <h2> PROJECT UTS PEMROGRAMAN BERBASIS WEB</h2>
   <p>
     <i>"Sistem Akademik "<br>
     </i>
@@ -75,23 +75,23 @@ Proyek ini merupakan aplikasi berbasis web sederhana untuk memenuhi Tugas Projec
   </tr>
   <tr>
     <td>Rihhadatul'Aisy Septifani Z</td>
-    <td>Koordinator/System Analyst: Menyusun alur, membagi tugas, memastikan seluruh kompetensi P1–P7 terpenuhi. </td>
+    <td><b>Koordinator/System Analyst:</b> Menyusun alur, membagi tugas, memastikan seluruh kompetensi P1–P7 terpenuhi. </td>
   </tr>
   <tr>
     <td>Firyal Nibras Hariyadi</td>
-    <td>PHP Developer A: Fokus procedural, function, variabel, operator, string.</td>
+    <td><b>PHP Developer A:</b> Fokus procedural, function, variabel, operator, string.</td>
   </tr>
   <tr>
    <td>Mujizat Hasyir Azhar</td>
-    <td>PHP Developer B: Fokus OOP, class/object, perulangan, dan output tabel.</td>
+    <td><b>PHP Developer B:</b> Fokus OOP, class/object, perulangan, dan output tabel.</td>
   </tr>
   <tr>
     <td>Nadine Agietha Bethesda</td>
-    <td>Tester & Dokumentasi: Menyusun skenario uji, screenshot, README, dan laporan singkat.</td>
+    <td><b>Tester & Dokumentasi:</b> Menyusun skenario uji, screenshot, README, dan laporan singkat.</td>
   </tr>
   <tr>
     <td>Joanne Trixie Isaura </td>
-    <td>Presenter / UI Integrator: Merakit halaman, navigasi, presentasi, dan demo akhir.</td>
+    <td><b>Presenter / UI Integrator:</b> Merakit halaman, navigasi, presentasi, dan demo akhir.</td>
   </tr>
 </table>
 
