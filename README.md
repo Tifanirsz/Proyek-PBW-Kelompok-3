@@ -133,7 +133,7 @@ Halaman `laporan.php` menampilkan rekap nilai dan kelulusan seluruh mahasiswa, m
 - **Statistik:** Total mahasiswa, jumlah mahasiswa aktif, jumlah lulus, dan rata-rata nilai akhir.
 - **Ringkasan Nilai:** Nilai tertinggi, nilai terendah, batas kelulusan, dan persentase kelulusan.
 - **Tabel Nilai Lengkap:** Menampilkan NPM, Nama, Nilai Tugas/UTS/UAS, Nilai Akhir, Grade, Kelulusan, dan Status.
-  ---
+  
 
 
 ## 4. Implementasi Konsep PHP
